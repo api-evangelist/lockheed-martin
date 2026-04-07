@@ -1,7 +1,11 @@
 aid: lockheed-martin
-url: https://raw.githubusercontent.com/api-evangelist/lockheed-martin/refs/heads/main/apis.yml
+url: 
+  https://raw.githubusercontent.com/api-evangelist/lockheed-martin/refs/heads/main/apis.yml
 modified: '2026-03-21'
 apis: []
 common:
   - type: Website
     url: https://www.lockheed-martin.com
+description: >-
+  Lockheed Martin is a leading global security, defense and aerospace contractor,
+  ensuring those we serve always stay ahead of ready.
