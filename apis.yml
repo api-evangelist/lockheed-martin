@@ -17,6 +17,10 @@ modified: '2026-04-28'
 specificationVersion: '0.19'
 apis: []
 common:
+  - type: GitHubOrganization
+    url: https://github.com/lmco
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/lockheed-martin
   - type: Website
     url: https://www.lockheedmartin.com
   - type: Careers
