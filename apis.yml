@@ -17,6 +17,8 @@ modified: '2026-04-28'
 specificationVersion: '0.19'
 apis: []
 common:
+  - type: DomainSecurity
+    url: security/lockheed-martin-domain-security.yml
   - type: GitHubOrganization
     url: https://github.com/lmco
   - type: LinkedIn
@@ -29,6 +31,8 @@ common:
     url: https://news.lockheedmartin.com
   - type: Suppliers
     url: https://www.lockheedmartin.com/en-us/suppliers.html
+  - url: https://news.lockheedmartin.com
+    type: Blog
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
