@@ -5,7 +5,18 @@ description: >-
   This repository captures the public APIs, developer tools, and machine-readable
   API artifacts where they exist for Lockheed Martin.
 type: Index
-image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/lockheed-martin.png
 url: https://raw.githubusercontent.com/api-evangelist/lockheed-martin/refs/heads/main/apis.yml
 tags:
   - Defense
