@@ -1,7 +1,9 @@
 ---
 title: Lockheed Martin Corporation (LMT) Stock Price, News ...
 url: https://finance.yahoo.com/quote/LMT/
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"Lockheed Martin" press release artificial intelligence'
 position: 5
 source: serpapi-google

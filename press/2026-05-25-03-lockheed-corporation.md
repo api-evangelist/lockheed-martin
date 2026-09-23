@@ -1,7 +1,9 @@
 ---
 title: Lockheed Corporation
 url: https://en.wikipedia.org/wiki/Lockheed_Corporation
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"Lockheed Martin" press release artificial intelligence'
 position: 3
 source: serpapi-google
