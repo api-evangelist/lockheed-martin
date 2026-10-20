@@ -1,9 +1,10 @@
 aid: lockheed-martin
 name: Lockheed Martin
-description: >-
-  Lockheed Martin is a leading global security, defense, and aerospace contractor.
-  This repository captures the public APIs, developer tools, and machine-readable
-  API artifacts where they exist for Lockheed Martin.
+description: Lockheed Martin is a global security, defense, and aerospace company
+  headquartered in Bethesda, Maryland, building aircraft, missiles, space systems,
+  and mission software for government customers. It publishes no public developer
+  program or API; its public technical footprint is open-source work in the lmco GitHub
+  organization (e.g. Laika BOSS, Hoppr, Dependency-Track forks).
 type: Index
 deliveryModel:
   model: unknown
@@ -30,31 +31,69 @@ accessModel:
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/lockheed-martin.png
 url: https://raw.githubusercontent.com/api-evangelist/lockheed-martin/refs/heads/main/apis.yml
 tags:
-  - Defense
-  - Aerospace
-  - Security
-  - Fortune 500
+- Defense
+- Aerospace
+- Security
+- Fortune 500
+- Open Source
+- Government
 created: '2026-03-21'
-modified: '2026-04-28'
+modified: '2026-10-20'
 specificationVersion: '0.23'
-apis: []
-common:
-  - type: DomainSecurity
-    url: security/lockheed-martin-domain-security.yml
-  - type: GitHubOrganization
-    url: https://github.com/lmco
-  - type: LinkedIn
-    url: https://www.linkedin.com/company/lockheed-martin
-  - type: Website
-    url: https://www.lockheedmartin.com
-  - type: Careers
-    url: https://www.lockheedmartinjobs.com
-  - type: Newsroom
-    url: https://news.lockheedmartin.com
-  - type: Suppliers
-    url: https://www.lockheedmartin.com/en-us/suppliers.html
-  - url: https://news.lockheedmartin.com
-    type: Blog
 maintainers:
-  - FN: Kin Lane
-    email: kin@apievangelist.com
+- FN: Kin Lane
+  email: kin@apievangelist.com
+common:
+- type: Hosts
+  url: hosts/lockheed-martin-hosts.yml
+- type: Vendors
+  url: vendors/lockheed-martin-vendors.yml
+- type: TermsOfService
+  url: https://www.lockheedmartin.com/en-us/suppliers/business-area-procurement/aeronautics/terms-and-conditions.html
+- type: Leadership
+  url: https://www.lockheedmartin.com/en-au/leadership/jeremy-king.html
+- type: Documentation
+  url: https://www.lockheedmartin.com/en-us/suppliers/documentation/2026tandc.html
+- type: DomainSecurity
+  url: security/lockheed-martin-domain-security.yml
+- type: GitHubOrganization
+  url: https://github.com/lmco
+- type: LinkedIn
+  url: https://www.linkedin.com/company/lockheed-martin
+- type: Website
+  url: https://www.lockheedmartin.com
+- type: Careers
+  url: https://www.lockheedmartinjobs.com
+- type: Newsroom
+  url: https://news.lockheedmartin.com
+- type: Suppliers
+  url: https://www.lockheedmartin.com/en-us/suppliers.html
+- url: https://news.lockheedmartin.com
+  type: Blog
+- type: PrivacyPolicy
+  url: https://www.lockheedmartin.com/en-us/contact/privacy-center.html
+- type: Support
+  url: https://www.lockheedmartin.com/en-us/contact.html
+apis: []
+x-coverage:
+  state: none
+  reason: no-developer-program
+  detail: Lockheed Martin publishes no developer portal or API; api.lockheedmartin.com
+    and developer.lockheedmartin.com do not resolve, no OpenAPI/llms.txt is served
+    on www.lockheedmartin.com, and its only public technical surface is open-source
+    code in github.com/lmco.
+  evidence:
+  - url: https://api.lockheedmartin.com
+    status: 0
+  - url: https://developer.lockheedmartin.com
+    status: 0
+  - url: https://www.lockheedmartin.com/openapi.json
+    status: 404
+  - url: https://www.lockheedmartin.com/llms.txt
+    status: 404
+  checked: '2026-10-20'
+x-enrichment:
+  date: '2026-10-20'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v5

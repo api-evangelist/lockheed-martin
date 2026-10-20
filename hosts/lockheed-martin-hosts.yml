@@ -1,0 +1,127 @@
+generated: '2026-10-20'
+method: derived
+source: the pre-flight dossier, apis.yml pointers, spec servers, well-known, vendors -- nothing fetched here
+generator: derive-hosts.py
+summary:
+  hosts: 10
+  own: 6
+  other_domain: 2
+  platform: 2
+  roles:
+  - api
+  - marketing
+  - other
+  - source
+  - website
+hosts:
+- host: api.lockheedmartin.com
+  found_by:
+  - contract-discovery
+  types: []
+  serves: []
+  registrable_domain: lockheedmartin.com
+  role: api
+  relation: own
+- host: api.lockheedmartinjobs.com
+  found_by:
+  - contract-discovery
+  types: []
+  serves: []
+  registrable_domain: lockheedmartinjobs.com
+  role: api
+  relation: other-domain
+- host: github.com
+  found_by:
+  - pointer
+  types:
+  - GitHubOrganization
+  serves: []
+  registrable_domain: github.com
+  role: source
+  relation: platform
+- host: investors.lockheedmartin.com
+  found_by:
+  - probed
+  - site-links
+  - well-known
+  types: []
+  serves: []
+  registrable_domain: lockheedmartin.com
+  role: other
+  relation: own
+- host: lockheedmartin.com
+  found_by:
+  - probed
+  - site-links
+  - well-known
+  types: []
+  serves: []
+  registrable_domain: lockheedmartin.com
+  role: other
+  relation: own
+- host: news.lockheedmartin.com
+  found_by:
+  - pointer
+  - probed
+  - site-links
+  - contract-discovery
+  - well-known
+  types:
+  - Newsroom
+  - Blog
+  serves: []
+  registrable_domain: lockheedmartin.com
+  role: marketing
+  relation: own
+- host: sustainability.lockheedmartin.com
+  found_by:
+  - probed
+  - site-links
+  - well-known
+  types: []
+  serves: []
+  registrable_domain: lockheedmartin.com
+  role: other
+  relation: own
+- host: www.linkedin.com
+  found_by:
+  - pointer
+  types:
+  - LinkedIn
+  serves: []
+  registrable_domain: linkedin.com
+  role: other
+  relation: platform
+- host: www.lockheedmartin.com
+  found_by:
+  - pointer
+  - probed
+  - contract-discovery
+  - well-known
+  - vendor-detect
+  types:
+  - TermsOfService
+  - Leadership
+  - Documentation
+  - Website
+  - Suppliers
+  - PrivacyPolicy
+  - Support
+  serves:
+  - cdn
+  vendor: cloudfront
+  registrable_domain: lockheedmartin.com
+  role: website
+  relation: own
+- host: www.lockheedmartinjobs.com
+  found_by:
+  - pointer
+  - probed
+  - contract-discovery
+  - well-known
+  types:
+  - Careers
+  serves: []
+  registrable_domain: lockheedmartinjobs.com
+  role: marketing
+  relation: other-domain
